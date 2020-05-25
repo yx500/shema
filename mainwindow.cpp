@@ -29,7 +29,6 @@ MainWindow::MainWindow(QWidget *parent) :
     QSettings settings;
 
     // подключаем интерфейс передачи буферов
-
     MVP.setGetGtBufferInterface(&SM);
     // если архивы не нужны можно обойтись только юдп
     //MVP.setGetGtBufferInterface(new GtBuffers_UDP_D2());
