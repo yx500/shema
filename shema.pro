@@ -9,7 +9,7 @@ QT       += core gui network widgets
 TARGET = shema
 TEMPLATE = app
 
-MVP_ROOT=$$PWD/../..
+MVP_ROOT=$$PWD/..
 
 DEFINES +=NO_LIBRARY
 
